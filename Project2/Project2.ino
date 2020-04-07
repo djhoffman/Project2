@@ -32,8 +32,6 @@ void loop(){
   int sensorValue = analogRead(A0);
   // print value
   Serial.println(sensorValue);
-  // delay for stability
-  delay(1);
 
   // INPUT
   sensorValue = constrain(sensorValue, 200, 330);
@@ -42,6 +40,9 @@ void loop(){
   //OUTPUT
   ledcWrite(ledChannel, brightness);
 
+  if(sensorValue < 300){
   // orange when sensor is high and green when low
   digitalWrite(green, HIGH);
+  Serial.println("Someone is at the door.");
+  }
 }
