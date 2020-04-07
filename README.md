@@ -1,5 +1,3 @@
-<h1> Project2 </h1>
+<h1> Project 2 </h1>
 
-<p> file that describes the overview of the repository, which will include a LICENSE
-file describing the Creative Commons License that you will use and links to any external
-libraries or project-specific installation instructions. </p>
+<p> In here is a project that will enable to notify people if someone is at there door, particularly useful for children and pets. In this repository is the code, and diagrams to help understand. I will be using the MIT license, so that it can be redistrubuted. To install, just follow the schematic diagrams, and run the code. </p>
